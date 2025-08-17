@@ -1,0 +1,31 @@
+@media screen and (max-width: 640px) {
+    nav ul li a{font-size: 0.9em;}
+    header{padding: 30px 0;}
+    #about{padding: 30px 25px;}
+    .skills-section, #services, #portfolio, #contact {padding: 30px 20px}
+    .footer-content{justify-content: center;}
+}
+@media screen and (max-width: 480px){
+    nav ul{padding: 0;}
+    .header-content h1, #about h2, .skills-section h2, .services-container h2, #portfolio h2, #contact h2 {font-size: 2rem;margin-top: 0;}
+    .intro {font-size: 1em;padding: 0 5px;}
+    .header-buttons .btn, .about-text .btn  {padding: 8px 14px;}
+    .subheading {margin: 10px 0 25px 0;}
+    .service-card {padding: 20px;}
+    .service-card i {font-size: 35px;margin: 0;}
+} 
+@media screen and (max-width: 360px){
+    nav{flex-wrap: wrap;}
+    nav ul{margin: 0;}
+    nav ul li a {font-size: 0.9em;}
+    nav ul li:first-child{display: none;}
+    nav a{padding: 5px 8px;}
+    .header-content h1, #about h2, .skills-section h2, .services-container h2, #portfolio h2, #contact h2 {font-size: 1.6rem;}
+    .intro {font-size: 0.9em;}
+    .header-buttons .btn, .about-text .btn {font-size: 0.9em;}
+    .subheading {margin: 10px 0 20px 0;font-size: 0.9em;}
+    .about-text{font-size: 0.9em;}
+    .service-card h3 {font-size: 20px;}
+    #contact .contact-info p, .contact-content {font-size: 0.9rem;}
+    #contact .social-links a {font-size: 1.2rem;}
+}
